@@ -1,0 +1,3704 @@
+$blkHdColor:#141f15;
+ $blkBtnColor:#1c2530;
+ $blkPrColor:#231f20;
+ $bluColor:#1c4691;
+ $grnColor:#80bf41;
+ $whtColor:#fff;
+ $BebasKai:BebasKai;
+ $Helvetica-Bold:Helvetica-Bold;
+ $bRadius:30px !important;
+ $bRadius0:0px !important;
+ $bRadius50:50%;
+ * {
+    box-sizing: border-box
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Helvetica;
+    background: url('../images/bodyBg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $blkPrColor;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica.TTF")
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url("../fonts/Helvetica-Bold.TTF")
+}
+
+@font-face {
+    font-family: BebasKai;
+    src: url("../fonts/BebasKai.TTF")
+}
+
+.Helvetica-Bold {
+    font-family: Helvetica-Bold
+}
+
+.BebasKai {
+    font-family: BebasKai
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0
+}
+header{
+    nav{
+        height: 100px
+    }
+}
+.bRadius50{
+    border-radius: $bRadius50
+}
+.beneRow{
+    img{
+        width:100px
+    }
+}
+.popularSec{
+    .float-start{
+        margin-left:20%
+    }
+}
+.table>thead {
+   background:whitesmoke
+}
+.recipe-carousel
+{
+    .card
+    {
+        height: 570px;
+        .card-body{
+            height: 230px
+        }
+}
+}
+.ruhtabDat{
+width:250px
+    }
+header {
+    img{
+    width: 90%;
+    margin-top: 3%
+}
+}
+.bestSellSec{
+    .float-start{
+        margin-left:20%
+    }
+}
+.gTaste-carousel{
+    margin-top:50px
+}
+.bRadius0 {
+    border-radius: $bRadius0
+}
+.beneImgCol{
+    img{
+        width:80px
+    }
+}
+.bRadius {
+    border-radius: $bRadius
+}
+.mapConSec{
+    iframe{
+        height: 450px
+    }
+}
+.text-green,
+.text-green:hover,
+ .text-green:visited,
+  .text-green:active {
+    color: $grnColor !important
+}
+
+.bg-green {
+    background: $grnColor
+}
+
+header {
+    background: $whtColor;
+    border-radius: 0px 0px 0 0;
+    border-bottom: 1px solid #dddddd
+}
+
+header {
+    nav {
+        li {
+            background: $blkBtnColor;
+            border-radius: $bRadius;
+            padding: 0 40px;
+            margin: 0 10px;
+            height: 40px
+        }
+    }
+}
+
+.headingLine {
+    margin-top: -20px;
+}
+
+header {
+    nav {
+        a {
+            color: $whtColor !important
+        }
+    }
+}
+
+.btnGatih, .btnGatih:hover {
+    color: $whtColor;
+    background: $blkBtnColor;
+    padding: 10px 40px;
+    font-family: Helvetica-Bold;
+    border-radius: $bRadius;
+    height: 40px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 20px
+}
+
+.bnrHmSec {
+    background: $whtColor
+}
+
+.hdngGatih {
+    font-family: $BebasKai;
+    font-size: 50px
+}
+
+.datesHmSec {
+    background: $whtColor;
+    padding: 50px 0 0 0
+}
+
+.dateCol8 {
+    padding: 100px 100px 0 100px
+}
+
+.bnrHmSec {
+    ul {
+        img {
+            border-radius: 50%;
+            box-shadow: 3px 3px 3px rgb(191, 189, 189);
+            width: 30px;
+            position: relative
+        }
+    }
+}
+
+.bnrHmSec {
+    ul {
+        li {
+            list-style: none;
+            margin-top: 10px
+        }
+    }
+}
+
+.bgMap {
+    img {
+        margin-top: -430px;
+        width: 100%;
+        height: 500px
+    }
+}
+
+
+.bnrHmSec h2,
+.bnrHmSec h1,
+.bnrHmSec p,
+.bnrHmSec .btnGatih {
+    position: relative;
+    color: $whtColor
+}
+
+.bnrHmSec h1 {
+    font-size: 60px;
+    font-family: Helvetica-Bold
+}
+
+.bnrHmSec h2 {
+    font-size: 35px;
+    margin-top: 70px
+}
+
+.bnrHmSec p {
+    margin-top: 30px;
+    width: 300px
+}
+
+@keyframes animateProd {
+    from {
+    }
+
+    to {
+        margin-top: 5%
+    }
+}
+
+.gTaste-carousel {
+    img {
+        width: 200px !important;
+        animation-name: animateProd;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear
+    }
+}
+
+.gTaste-carousel {
+    .owl-nav {
+        margin-left: 60%;
+        margin-top: -25%
+    }
+}
+
+.gTaste-carousel {
+    .owl-prev {
+        span {
+            position: absolute;
+            font-size: 40px;
+            color: $whtColor;
+            border: 1px solid $whtColor;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            line-height: 24px
+        }
+    }
+}
+
+.gTaste-carousel {
+    .owl-next {
+        span {
+            position: absolute;
+            font-size: 40px;
+            color: $whtColor;
+            border: 1px solid $whtColor;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            line-height: 24px
+        }
+    }
+}
+
+.gTaste-carousel {
+    .owl-next {
+        margin-left: 40px;
+    }
+}
+
+.gTaste-carousel {
+    .owl-nav {
+        visibility: hidden
+    }
+}
+
+.bnrHmSec {
+    ul {
+        margin-top: 90px;
+        margin-left: 25px
+    }
+}
+
+.bnrHmSec {
+    .spellCol {
+        padding-left: 100px
+    }
+}
+
+.ourBrandSec {
+    background: $whtColor;
+    padding: 30px 0 0px 0
+}
+
+.popularSec {
+    background: $whtColor;
+    padding:50px 50px 0px 50px
+}
+
+.popularSec h6 {
+    font-size: 25px
+}
+
+.popularSec {
+    h6 {
+        .fa-chevron-right {
+            background: $whtColor;
+            border-radius: 50%;
+            box-shadow: 1px 0px 1px 2px whitesmoke;
+            font-size: 17px;
+            padding: 7px 10px 10px 10px;
+            height: 30px;
+            width: 30px;
+            color: $grnColor;
+            margin-left: 10px
+        }
+    }
+}
+
+.popuProd-carousel {
+    .item {
+        img {
+            width: 50%;
+            margin-left: 25%;
+            margin-bottom: 10px;
+            margin-top: -20%
+        }
+    }
+}
+
+.popuProd-carousel {
+    .item {
+        img:hover {
+            transition: 1s;
+            width: 52%;
+            margin-left: 24%;
+            margin-bottom: 10px;
+            margin-top: -23%
+        }
+    }
+}
+
+.popularSec .item {
+    border-radius: $bRadius;
+    background-image: url(../images/productBg.jpg);
+    box-shadow: 5px 5px 5px whitesmoke;
+    border: 1px solid whitesmoke;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    padding: 20px;
+    margin-top: 50px
+}
+
+.popuProd-carousel {
+    h4 {
+        font-size: 20px
+    }
+}
+
+.popuProd-carousel {
+    p {
+        font-size: 10px
+    }
+}
+
+.popuProd-carousel {
+    .fa-chevron-right {
+        color: $whtColor;
+        border-radius: 50%;
+        -webkit-box-shadow: 1px 0px 1px 2px whitesmoke;
+        box-shadow: 1px 0px 1px 2px whitesmoke;
+        font-size: 17px;
+        padding: 7px 10px 10px 10px;
+        height: 30px;
+        width: 30px;
+        background: $grnColor;
+        margin-top: 10px
+    }
+}
+
+.launchBg {
+    background: url('../images/launchBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    color: $whtColor;
+    padding: 20px 50px 0 50px
+}
+
+.launchBg {
+    .orangeGirl {
+        width: 200px;
+        margin-top: -80px
+    }
+}
+
+.launchBg {
+    .ruhDate {
+        width: 100px
+    }
+}
+
+.launchBg {
+    .newLnch {
+        h2 {
+            font-size: 55px;
+            font-style: italic;
+            line-height: 55px;
+            margin-top: 20px
+        }
+    }
+}
+
+.footer-top {
+    background: $grnColor;
+    padding: 40px 100px 15px 100px
+}
+
+.footer-top {
+    .menuCol {
+        ul {
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: $whtColor;
+                    font-family: $BebasKai;
+                    font-size: 22px;
+                    line-height: 50px
+                }
+            }
+        }
+    }
+}
+
+footer {
+    color: $whtColor
+}
+
+footer {
+    h3 {
+        font-size: 35px
+    }
+}
+
+.footer-bottom {
+    background: $bluColor;
+}
+
+footer {
+    .socialUl {
+        li {
+            display: inline-block;
+            margin: 20px 5px
+        }
+    }
+}
+
+.footer-top {
+    ul {
+        padding-left: 0;
+        margin-bottom: 0
+    }
+}
+
+.footer-top {
+    p {
+        font-size: 12px
+    }
+}
+
+.footer-top {
+    ::placeholder {
+        font-size: 12px
+    }
+}
+
+.footer-top {
+    button, button:hover {
+        background: $bluColor;
+        color: $whtColor;
+        font-size: 12px
+    }
+}
+
+.footer-top {
+    .gathiLogoCircle {
+        width: 180px
+    }
+}
+
+.homechefSec {
+    background: $whtColor;
+    padding:0 50px 50px 50px
+}
+
+
+
+.mapSec {
+    background: $whtColor;
+    padding: 0px 50px 50px 50px
+}
+
+.connectedSec {
+    background: $whtColor;
+    padding: 0px 0px 20px 0px
+}
+
+.bgConnect {
+    background: #e4e7ee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 100px;
+    color: $whtColor
+}
+
+.bgConnect {
+    .socialRow {
+        h4 {
+            font-size: 30px;
+            color: $blkHdColor
+        }
+    }
+}
+
+.bgConnect {
+    .socialRow {
+        i {
+            margin-right: 10px;
+            font-size: 20px;
+            background: $grnColor;
+            border-radius: 50%;
+            padding: 8px;
+            color: $whtColor
+        }
+    }
+}
+
+.recipe-carousel {
+    .owl-prev {
+        position: absolute;
+        top: 45%
+    }
+}
+
+.recipe-carousel {
+    .owl-next {
+        position: absolute;
+        top: 45%
+    }
+}
+
+.recipe-carousel {
+    .owl-prev {
+        left: -60px
+    }
+}
+
+.recipe-carousel {
+    .owl-next {
+        right: -20px;
+    }
+}
+
+.recipe-carousel {
+    span {
+        position: absolute;
+        font-size: 50px;
+        color: $grnColor;
+        border: 1px solid $grnColor;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        line-height: 30px
+    }
+}
+
+.owl-dots {
+    display: none
+}
+
+.insta-carousel {
+    .owl-prev {
+        position: absolute;
+        top: 45%
+    }
+}
+
+.insta-carousel {
+    .owl-next {
+        position: absolute;
+        top: 45%
+    }
+}
+
+.insta-carousel {
+    .owl-prev {
+        left: -60px
+    }
+}
+
+.insta-carousel {
+    .owl-next {
+        right: -20px;
+    }
+}
+
+.insta-carousel {
+    span {
+        position: absolute;
+        font-size: 50px;
+        color: $grnColor;
+        border: 1px solid $grnColor;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        line-height: 30px
+    }
+}
+.testimonialSec {
+    background: $whtColor;
+    padding: 0 0 50px 0
+}
+
+.test-carousel {
+    p {
+        font-size: 12px
+    }
+}
+
+.test-carousel .shadow {
+    border-radius: $bRadius;
+    margin-left: 5%;
+    height: 120px
+}
+
+.test-carousel {
+    .owl-prev {
+        position: absolute;
+        top: 90%
+    }
+}
+
+.test-carousel {
+    .owl-next {
+        position: absolute;
+        top: 90%
+    }
+}
+
+.test-carousel {
+    .owl-prev {
+        left: 45%
+    }
+}
+
+.test-carousel {
+    .owl-next {
+        right: 51%
+    }
+}
+
+.test-carousel {
+    span {
+        position: absolute;
+        font-size: 40px;
+        color: $blkBtnColor;
+        border: 1px solid $blkBtnColor;
+        border-radius: $bRadius50;
+        height: 30px;
+        width: 30px;
+        line-height: 24px
+    }
+}
+
+.test-carousel {
+    img {
+        margin-top: -40px;
+        margin-left: -30px;
+        border-radius:50%
+    }
+}
+
+.test-carousel {
+    img {
+        margin-top: -40px;
+        margin-left: -30px
+    }
+}
+
+.test-carousel {
+    h5 {
+        margin-left: -30px
+    }
+
+    p {
+        margin-left: -30px
+    }
+}
+
+.ourBrandSec {
+    .brndLog {
+        width: 250px
+    }
+}
+
+.footer-bottom {
+    h6 {
+        font-size: 13px
+    }
+}
+
+.weStartSec {
+    padding: 50px 0 0 100px;
+    background: $whtColor
+}
+
+.weStartSec {
+    h1 {
+        font-size: 50px;
+        font-family: $Helvetica-Bold;
+        color: $blkHdColor;
+        position: relative;
+        margin-top:80px
+    }
+}
+.weStartSec {
+    img{
+        width: 70%;
+        margin-left: 10%;
+        box-shadow: 10px 10px 10px #9690906b
+    }
+}
+
+.weStartSec {
+    a {
+        font-size: 20px;
+        position: relative
+    }
+}
+
+.weStartSec {
+    p {
+        position: relative
+    }
+}
+
+.visionSec {
+    background: $whtColor;
+    padding: 30px 0 50px 0
+}
+
+.ourTeamSec {
+    background: $grnColor;
+    padding: 50px 50px
+}
+
+.ourTeamSec {
+    .ourTeam {
+        margin-top: -250px;
+        margin-left: -50px
+    }
+}
+
+.ourTeamSec {
+    h5, p {
+        z-index: 1;
+        position: relative;
+        color: $whtColor;
+        text-align: center
+    }
+
+    .zInd {
+        width: 90px
+    }
+}
+
+.ourTeamSec {
+    p {
+        font-size: 14px
+    }
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.quamaStart {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 8%
+}
+
+.quamaEnd {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 27%
+}
+
+.bgGreen {
+    padding:50px 100px 0 0
+}
+
+.teamMemSec {
+    padding:50px 100px 50px 100px;
+    background: $whtColor;
+}
+
+.teamMemSec {
+    .ourTeam {
+        width: 40%;
+        margin-left:0;
+        border: 2px solid #d3dcca45;
+        border-radius: $bRadius50;
+        transition: 3s
+    }
+}
+
+
+.awardSec {
+    padding: 30px 200px;
+    background: $whtColor
+}
+
+.awardSec {
+    p {
+        font-size: 14px
+    }
+}
+
+footer {
+    form{
+        input {
+            border-radius: 5px 0 0 5px !important
+        }
+        button {
+            border-radius: 0 5px 5px 0 !important
+        }
+    }
+}
+
+
+.privacySec {
+    background: $whtColor;
+    padding: 40px 100px 50px 100px
+}
+
+.termsSec {
+    background: $whtColor;
+    padding: 40px 100px 50px 100px
+}
+
+.termsSec {
+    h4 {
+        color: $blkHdColor
+    }
+}
+
+.prodBnrSec img {
+    margin-top:0
+}
+
+.prodBnrSec {
+    background: $whtColor
+}
+
+.premiumSec {
+    background: $whtColor;
+    padding: 50px 0
+}
+
+.premiumSec {
+    img {
+        width: 35%
+    }
+}
+
+.premiumSec {
+    button {
+        background: $grnColor
+    }
+}
+
+.premiumSec {
+    input {
+        width: 60%;
+        margin-left: 15%
+    }
+}
+
+.launNewSec{
+    background-color: $whtColor;
+    padding:50px 0 50px 0;
+    overflow:hidden
+}
+
+
+.launchSec {
+    padding: 0 100px 50px 100px;
+    background: linear-gradient($whtColor, #d5d2d2)
+}
+
+.launchSec {
+    .dateProduct {
+        width: 80%;
+        margin-left: 10%
+    }
+}
+
+.launchSec {
+    p {
+        font-size: 14px;
+        margin-top: 5px
+    }
+}
+
+.launchSec {
+    h4:first-child {
+        margin-top:150px
+    }
+}
+
+.bestSellSec {
+    background: $whtColor;
+    padding: 1px 50px 50px 50px
+}
+
+.bestSellSec {
+    .ruhtabProduct {
+        width: 90%;
+        margin-left: 5%
+    }
+}
+.prodChildSec {
+    background: $whtColor;
+    padding: 50px
+}
+
+.prodChildSec {
+    .ruhtabProduct {
+        width: 90%;
+        margin-left: 5%
+    }
+}
+.searchSec {
+    background: $whtColor;
+    padding: 50px 0
+}
+
+.searchSec {
+    .ruhtabProduct {
+        width: 90%;
+        margin-left: 5%
+    }
+}
+
+.seller-carousel {
+    .fa-chevron-right {
+        background: $grnColor;
+        border-radius: 50%;
+        box-shadow: 1px 0px 1px 2px whitesmoke;
+        font-size: 17px;
+        padding: 7px 10px 10px 10px;
+        height: 30px;
+        width: 30px;
+        color: $whtColor;
+        margin-left: 10px
+    }
+}
+
+.seller-carousel {
+    .item {
+        border-radius: $bRadius;
+        background-image: url(../images/productBg.jpg);
+        box-shadow: 5px 5px 5px whitesmoke;
+        border: 1px solid whitesmoke;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        padding: 20px;
+        margin-top: 100px;
+        img {
+            width: 50%;
+            margin-left: 25%;
+            margin-bottom: 10px;
+            margin-top: -20%
+        }
+
+        h4 {
+            font-size: 20px
+        }
+
+        p {
+            font-size: 10px
+        }
+    }
+}
+
+.seller-carousel {
+    .item {
+        img:hover {
+            transition: 1s;
+            width: 55%;
+            margin-left: 20%;
+            margin-bottom: 10px;
+            margin-top: -27%
+        }
+    }
+}
+
+.homechefSec {
+    .chefBox {
+        img {
+            transition: 3s
+        }
+    }
+}
+
+.homechefSec {
+    .chefBox {
+        img:hover {
+            transform: scale(1.3)
+        }
+    }
+}
+
+.homechefSec {
+    .chefBox {
+        .showAll:hover {
+            transform: none
+        }
+    }
+}
+
+.awardSec {
+    .row:last-child {
+        img:hover {
+            transform: scale(1.2)
+        }
+    }
+}
+
+.awardSec {
+    .row:last-child {
+        img {
+            transition: 2s
+        }
+    }
+}
+
+.recipe-carousel {
+    .item {
+        overflow: hidden
+    }
+}
+
+.recipe-carousel {
+    .item {
+        img {
+            transition: 3s
+        }
+    }
+}
+
+.recipe-carousel {
+    .item {
+        img:hover {
+            transform: scale(1.3)
+        }
+    }
+}
+
+.contactSec {
+    background: $whtColor;
+    padding: 40px 100px
+}
+
+.insta-carousel {
+    .item {
+        overflow: hidden
+    }
+}
+
+.insta-carousel {
+    .item {
+        img {
+            transition: 3s
+        }
+    }
+}
+
+.insta-carousel {
+    .item {
+        img:hover {
+            transform: scale(1.3)
+        }
+    }
+}
+.contactSec {
+    h1 {
+        font-size: 50px
+    }
+}
+
+#scTop {
+    position: fixed;
+    top: 93%;
+    left: 96%;
+    z-index: 10;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    text-shadow: 0 0 5px #1adb80;
+    animation-name: Sctop;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite
+}
+
+@keyframes Sctop {
+    0% {
+        transform: scale(1) translateY(0)
+    }
+
+    50% {
+        transform: scale(1.1) translateY(5px)
+    }
+
+    100% {
+        transform: scale(1) translateY(0)
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer
+}
+
+.contactSec {
+    textarea {
+        height: 200px !important
+    }
+
+    label {
+        padding-left: 30px
+    }
+
+    button {
+        line-height: 10px
+    }
+
+    .DropMsg {
+        border-bottom: 2px solid $grnColor;
+        width: fit-content
+    }
+
+    i {
+        margin-left: 5%;
+        font-size: 20px
+    }
+}
+
+.searchSec {
+    button {
+        margin-left: -50px
+    }
+
+    input {
+        height: 45px;
+        padding-left: 20px
+    }
+}
+.animateGirl {
+    animation-name: animateGirl;
+    animation-duration: 2s;
+    animation-iteration-count: 1
+}
+@keyframes animateGirl {
+    0% {
+        width:200px
+    }
+    100% {
+        width:220px;
+        margin-top:-100px
+    }
+  }
+
+@media (max-width: 299px) {
+    .launNewSec {
+        padding: 10px 0 20px 0
+    }
+.bestSellSec{
+    .ruhtabProduct{
+        width:50%
+    }
+}
+.prodChildSec{
+    .ruhtabProduct{
+        width:50%
+    }
+}
+    .seller-carousel{ .item {
+        border-radius: 10px !important;
+        height: 190px;
+        margin-top: 10px
+    }
+}
+    .seller-carousel {.item{ img{
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10px;
+        margin-top: -5%
+    }
+    }
+    }
+    .seller-carousel {.item{ img:hover {
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10px;
+        margin-top: -5%
+    }
+    }
+    }
+    .premiumSec {
+        padding:30px 20px 20px 20px
+    }
+    .bestSellSec{
+        h1
+     {
+        font-size: 25px;
+        margin-top: 20px
+    }
+}
+    .bestSellSec{
+        padding:20px 0
+    }
+
+    .prodChildSec{
+        h1
+     {
+        font-size: 25px;
+        margin-top: 20px
+    }
+}
+    .prodChildSec{
+        padding:20px 0
+    }
+    .launchSec {.dateProduct {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+}
+    .launchSec {h4:first-child {
+        margin-top: 0
+    }
+}
+    .launchSec {
+        padding: 20px
+    }
+    .prodBnrSec{ img {
+        margin-top: 0
+    }
+}
+.test-carousel{
+    .owl-nav{
+        margin-top:30px
+    }
+}
+    .popuProd-carousel {h4 {
+        font-size: 18px
+    }
+}
+    .popularSec .item {
+        border-radius: 10px !important;
+        height: 190px;
+        margin-top: 10px
+    }
+    .popularSec,
+    .ourBrandSec,
+    .datesHmSec{
+        padding:20px
+    }
+    .ourBrandSec{ .brndLog {
+        width: 100px
+    }
+}
+.test-carousel {.owl-next {
+    right: 48%
+}
+}
+.test-carousel {.owl-prev {
+    left: 36%
+}
+}
+.launchBg{ .newLnch {h2{
+    font-size:25px;
+    margin-top:10px
+}
+}
+}
+.launchBg{
+    text-align: center;
+    padding:20px;
+    margin-top: 10px
+}
+.launchBg{.orangeGirl {
+    width: 150px;
+    margin-top: 0
+}
+}
+.recipe-carousel{ span {
+    height: 30px;
+    width: 30px;
+    line-height: 20px;
+    font-size:40px
+}
+}
+.bgConnect {
+    padding: 20px 70px
+}
+.insta-carousel{ span {
+    height: 30px;
+    width: 30px;
+    line-height: 20px;
+    font-size:40px
+}
+}
+.testimonialSec{
+    padding:20px
+}
+.connectedSec{
+    padding:20px
+}
+.popularSec{
+    h6{
+        font-size:16px
+    }
+}
+.popuProd-carousel {.item{ img{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: -5%
+}
+}
+}
+.popuProd-carousel {.item{ img:hover {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: -5%
+}
+}
+}
+    .ourTeamSec {
+        background: #80c041;
+        padding:0px 0px 20px 30px
+    }
+    .ourTeamSec{ .ourTeam {
+        display: none
+    }
+}
+.ourTeamSec {.zInd {
+    width: 70px;
+}
+}
+.bnrHmSec {
+    background: #7ac142;
+    padding: 0px 0px 80px 0px
+}
+.bnrHmSec{ .spellCol {
+    padding-left: 40px;
+    padding-bottom: 30px
+}
+}
+.bnrHmSec{ p {
+    margin-top: 10px;
+    width: auto
+}
+}
+.bnrHmSec{ h2 {
+    font-size: 22px;
+    margin-top: 20px
+}
+}
+    .bgGreen {
+        padding: 0px 0px 0 0
+    }
+    .teamMemSec {.ourTeam {
+        width: 30%;
+        margin-left: 0;
+        border: 1px solid #d3dcca45;
+        margin-top: 30px
+    }
+}
+    .contactSec{ .fa-map-marker {
+        margin-left: 0
+    }
+}
+.contactSec{ h1 {
+    font-size: 25px
+}
+}
+.contactSec{ textarea {
+    height: 120px !important
+}
+}
+.contactSec {
+    img{
+    width: 50%;
+    margin-left: 15%
+}
+}
+header {
+    border-radius: 10px 10px 0 0
+}
+    .contactSec {
+        padding: 20px 20px
+    }
+    #scTop {
+        top: 96%;
+        left: 91%;
+        font-size: 1rem
+    }
+    body{ .container {
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+}
+    .hdngGatih {
+        font-size: 30px
+    }
+    .btnGatih,
+    .btnGatih:hover {
+        padding: 10px 30px
+    }
+    .dateCol8 {
+        padding: 10px 20px 0 20px
+    }
+    .footer-top {
+        padding: 20px 20px 10px 20px;
+        text-align: center
+    }
+    .footer-top {.gathiLogoCircle {
+        width: 100px;
+        margin: 20px
+    }
+}
+.footer-bottom {h6 {
+    font-size: 10px
+}
+}
+footer{ h3 {
+    font-size: 30px;
+}
+}
+.footer-top{ .menuCol{ ul {li {a {
+    font-size: 20px;
+    line-height: 38px
+}
+}
+}
+}
+}
+.test-carousel{ img {
+    margin-top: 30px;
+    margin-left: -20px
+}
+}
+.homechefSec {
+    padding:0 30px 30px 30px
+}
+.navbar-brand{
+    img{
+        width:130px
+    }
+}
+header {nav {li {
+    margin: 2px 10px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%
+}
+}
+}
+.datesHmSec {.dates{
+    display:none
+}
+}
+.bnrHmSec{
+    ul{
+        display: none
+    }
+}
+.gTaste-carousel {img {
+    margin-left: 35%;
+    width: 25% !important
+}}
+.bnrHmSec {h1 {
+    font-size: 35px
+}
+}
+@keyframes animateProd {
+    from {
+    }
+    to {
+        margin-top: 0%
+    }
+}
+.bgMap{ img {
+    display:none
+}}
+.termsSec,
+.privacySec {
+    padding: 20px 20px 20px 20px
+}
+.searchSec{h1 {
+    font-size: 25px;
+    margin-top: 30px
+}
+}
+.searchSec {
+    padding: 20px 20px
+}
+.searchSec {
+    .ruhtabProduct{
+    width: 50%;
+    margin-top: 5%
+}
+}
+.weStartSec h1 {
+    font-size: 30px
+}
+
+.weStartSec {
+    padding: 20px 20px 0 20px
+}
+.weStartSec{ .biryani {
+    width: 50%;
+    margin-left: 25%
+}
+}
+.teamMemSec {
+    padding: 0px 20px 20px 20px;
+    text-align: center
+}
+.awardSec {
+    padding: 20px 20px
+}
+.awardSec{
+    .star{
+    width:30%
+}
+}
+.visionSec {
+    padding: 20px
+}
+.quamaStart {
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 5%
+}
+.quamaEnd {
+    width: 5%;
+    margin-top: 0px;
+    margin-left: 61%
+}
+}
+
+@media (min-width: 300px) and (max-width:399px) {
+    .launNewSec {
+        padding: 10px 0 20px 0
+    }
+
+    .test-carousel{span {
+        line-height: 30px
+    }
+}
+    .recipe-carousel{.owl-next {
+        right: -5px
+    }
+}
+.recipe-carousel{ .owl-prev {
+    left: -35px
+}
+}
+    header{
+     .navbar {
+        padding: 0 !important
+    }
+}
+.insta-carousel{.owl-next {
+    right: -5px
+}
+}
+.insta-carousel{ .owl-prev {
+left: -35px
+}
+}
+.navbar-toggler:focus {
+    box-shadow:0 0 0 0rem !important
+}
+.navbar-toggler{
+    span{
+    margin-top: 4px
+}
+}
+.popularSec {h6{ .fa-chevron-right {
+    font-size: 12px;
+    height: 25px;
+    width: 25px
+}
+}
+}
+.popuProd-carousel{ .fa-chevron-right{
+    font-size: 12px;
+    height: 25px;
+    width: 25px
+}
+}
+.test-carousel {.shadow{
+    border-radius: 10px !important;
+    margin-left: 0;
+    height: 260px
+}
+}
+.test-carousel {h5{
+    margin-left:0
+}
+}
+
+.test-carousel {p{
+    margin-left:0;
+    text-align:center
+}
+}
+.testimonialSec{
+    .shadow{
+        box-shadow: none !important;
+        text-align: center
+    }
+}
+.bgConnect {.socialRow {h4 {
+    font-size: 25px
+}
+}
+}
+.bgConnect{ .socialRow {i {
+    margin-right: 5px;
+    font-size: 17px;
+    padding: 5px
+}
+}
+}
+    .contactSec{
+        .fa-map-marker{
+            font-size: 20px
+        }
+        p{
+            font-size:14px
+        }
+    }
+.bestSellSec{
+    .ruhtabProduct{
+        width:50%
+    }
+}
+.prodChildSec{
+    .ruhtabProduct{
+        width:50%
+    }
+}
+    .seller-carousel{ .item {
+        border-radius: 10px !important;
+        height: 240px;
+        margin-top: 10px
+    }
+}
+    .seller-carousel {.item{ img{
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10px;
+        margin-top: -5%
+    }
+    }
+    }
+    .seller-carousel {.item{ img:hover {
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10px;
+        margin-top: -5%
+    }
+    }
+    }
+    .premiumSec {
+        padding:30px 20px 20px 20px
+    }
+    .bestSellSec{
+        h1
+     {
+        font-size: 25px;
+        margin-top: 20px
+    }
+}
+    .bestSellSec{
+        padding:0px 0 10px 0
+    }
+    .prodChildSec{
+        h1
+     {
+        font-size: 25px;
+        margin-top: 0px
+    }
+}
+    .prodChildSec{
+        padding:20px 0
+    }
+    .launchSec {.dateProduct {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+}
+    .launchSec {h4:first-child {
+        margin-top: 0
+    }
+}
+    .launchSec {
+        padding: 20px
+    }
+    .prodBnrSec{ img {
+        margin-top: 0
+    }
+}
+.test-carousel{
+    .owl-nav{
+        margin-top:30px
+    }
+}
+    .popuProd-carousel {h4 {
+        font-size: 18px
+    }
+}
+    .popularSec .item {
+        border-radius: 10px !important;
+        height: 240px;
+        margin-top: 10px
+    }
+    .popularSec,
+    .ourBrandSec,
+    .datesHmSec{
+        padding:20px
+    }
+    .ourBrandSec{ .brndLog {
+        width: 100px
+    }
+}
+.test-carousel {.owl-next {
+    right: 47%
+}
+}
+.test-carousel {.owl-prev {
+    left: 42%
+}
+}
+.launchBg{ .newLnch {h2{
+    font-size: 22px;
+    margin-top: 0px
+}
+}
+}
+.launchBg{
+    text-align: center;
+    padding:20px;
+    margin-top: 10px
+}
+.launchBg{.orangeGirl {
+    width: 100px;
+    margin-top: 0
+}
+}
+.recipe-carousel{ span {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size:40px
+}
+}
+.bgConnect {
+    padding: 20px 40px
+}
+.insta-carousel{ span {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size:40px
+}
+}
+.testimonialSec{
+    padding:20px
+}
+.connectedSec{
+    padding:0px
+}
+.popularSec{
+    h6{
+        font-size:15px
+    }
+}
+.popuProd-carousel {.item{ img{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: -5%
+}
+}
+}
+.popuProd-carousel {.item{ img:hover {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: -5%
+}
+}
+}
+    .ourTeamSec {
+        background: #80c041;
+        padding:0px 0px 20px 30px
+    }
+    .ourTeamSec{ .ourTeam {
+        display: none
+    }
+}
+.ourTeamSec {.zInd {
+    width: 70px;
+    margin-top: 20px
+}
+}
+.bnrHmSec {
+    background: #7ac142;
+    padding: 0px 0px 80px 0px
+}
+.bnrHmSec{ .spellCol {
+    padding-left: 40px;
+    padding-bottom: 30px
+}
+}
+.bnrHmSec{ p {
+    margin-top: 10px
+}
+}
+.bnrHmSec{ h2 {
+    font-size: 22px;
+    margin-top: 20px
+}
+}
+    .bgGreen {
+        padding: 0px 0px 0 0
+    }
+    .teamMemSec {.ourTeam {
+        width: 30%;
+        margin-left: 0;
+        border: 1px solid #d3dcca45;
+        margin-top: 30px
+    }
+}
+    .contactSec{ .fa-map-marker {
+        margin-left: 0
+    }
+}
+.contactSec{ h1 {
+    font-size: 25px
+}
+}
+.contactSec{ textarea {
+    height: 120px !important
+}
+}
+.contactSec {
+    img{
+    width: 50%;
+    margin-left: 15%
+}
+}
+header {
+    border-radius: 10px 10px 0 0;
+    background: #f9f9f9
+}
+    .contactSec {
+        padding: 20px 20px
+    }
+    #scTop {
+        top: 96%;
+        left: 91%;
+        font-size: 1rem
+    }
+    body{ .container {
+        margin-top: 0px;
+        margin-bottom: 10px
+    }
+}
+    .hdngGatih {
+        font-size: 30px
+    }
+    .btnGatih,
+    .btnGatih:hover {
+        padding: 10px 30px
+    }
+    .dateCol8 {
+        padding: 10px 20px 0 20px
+    }
+    .footer-top {
+        padding: 20px 20px 10px 20px;
+        text-align: center
+    }
+    .footer-top {.gathiLogoCircle {
+        width: 100px;
+        margin: 20px
+    }
+}
+.footer-bottom {h6 {
+    font-size: 8px
+}
+}
+footer{ h3 {
+    font-size: 30px;
+}
+}
+.footer-top{ .menuCol{ ul {li {a {
+    font-size: 20px;
+    line-height: 38px
+}
+}
+}
+}
+}
+.test-carousel{ img {
+    margin-top: 0px;
+    margin-left:32%;
+    width:100px !important
+}
+}
+.homechefSec {
+    padding: 0 30px 30px 30px
+}
+.navbar-brand{
+    img{
+        width:130px;
+        margin-bottom: -6px
+    }
+}
+header {nav {li {
+    margin: 2px 10px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%
+}
+}
+}
+.datesHmSec {.dates{
+    display:none
+}
+}
+.bnrHmSec{
+    ul{
+        display: none
+    }
+}
+.gTaste-carousel {img {
+    margin-left: 35%;
+    width: 25% !important
+}}
+.bnrHmSec {h1 {
+    font-size: 35px
+}
+}
+@keyframes animateProd {
+    from {
+    }
+    to {
+        margin-top: 0%
+    }
+}
+.bgMap{ img {
+    display:none
+}}
+.termsSec,
+.privacySec {
+    padding: 20px 20px 20px 20px
+}
+.searchSec{h1 {
+    font-size: 25px;
+    margin-top: 30px
+}
+}
+.searchSec {
+    padding: 20px 20px
+}
+.searchSec {
+    .ruhtabProduct{
+    width: 50%;
+    margin-top: 5%
+}
+}
+.weStartSec h1 {
+    font-size: 28px;
+    margin-top:0
+}
+
+.weStartSec {
+    padding: 20px 20px 0 20px
+}
+.weStartSec{ .biryani {
+    width: 50%;
+    margin-left: 25%
+}
+}
+.teamMemSec {
+    padding:30px 0px 30px 0px;
+    text-align: center
+}
+.awardSec {
+    padding: 20px 20px
+}
+.awardSec{
+    .star{
+    width:30%
+}
+}
+.visionSec {
+    padding: 20px
+}
+.quamaStart {
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 5%
+}
+.quamaEnd {
+    width: 5%;
+    margin-top: 0px;
+    margin-left: 61%
+}
+}
+@media (min-width: 400px) and (max-width:575px) {
+    .launNewSec {
+        padding: 10px 0 20px 0
+    }
+.bestSellSec{
+    .ruhtabProduct{
+        width:50%
+    }
+}
+.prodChildSec{
+    .ruhtabProduct{
+        width:50%
+    }
+}
+    .seller-carousel{ .item {
+        border-radius: 10px !important;
+        height: 260px;
+        margin-top: 10px
+    }
+}
+    .seller-carousel {.item{ img{
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10px;
+        margin-top: -5%
+    }
+    }
+    }
+    .seller-carousel {.item{ img:hover {
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10px;
+        margin-top: -5%
+    }
+    }
+    }
+    .premiumSec {
+        padding:30px 20px 20px 20px
+    }
+    .bestSellSec{
+        h1
+     {
+        font-size: 25px;
+        margin-top: 20px
+    }
+}
+    .bestSellSec{
+        padding:20px 0
+    }
+    .prodChildSec{
+        h1
+     {
+        font-size: 25px;
+        margin-top: 20px
+    }
+}
+    .prodChildSec{
+        padding:20px 0
+    }
+    .launchSec {.dateProduct {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+}
+    .launchSec {h4:first-child {
+        margin-top: 0
+    }
+}
+    .launchSec {
+        padding: 20px
+    }
+    .prodBnrSec{ img {
+        margin-top: 0
+    }
+}
+.test-carousel{
+    .owl-nav{
+        margin-top:30px
+    }
+}
+    .popuProd-carousel {h4 {
+        font-size: 18px
+    }
+}
+    .popularSec .item {
+        border-radius: 10px !important;
+        height: 260px;
+        margin-top: 10px
+    }
+    .popularSec,
+    .ourBrandSec,
+    .datesHmSec{
+        padding:20px
+    }
+    .ourBrandSec{ .brndLog {
+        width: 100px
+    }
+}
+.test-carousel {.owl-next {
+    right: 48%
+}
+}
+.test-carousel {.owl-prev {
+    left: 42%
+}
+}
+.launchBg{ .newLnch {h2{
+    font-size:25px;
+    margin-top:10px
+}
+}
+}
+.launchBg{
+    text-align: center;
+    padding:20px;
+    margin-top: 10px
+}
+.launchBg{.orangeGirl {
+    width: 150px;
+    margin-top: 0
+}
+}
+.recipe-carousel{ span {
+    height: 30px;
+    width: 30px;
+    line-height: 20px;
+    font-size:40px
+}
+}
+.bgConnect {
+    padding: 20px 70px
+}
+.insta-carousel{ span {
+    height: 30px;
+    width: 30px;
+    line-height: 20px;
+    font-size:40px
+}
+}
+.testimonialSec{
+    padding:20px
+}
+.connectedSec{
+    padding:20px
+}
+.popularSec{
+    h6{
+        font-size:16px
+    }
+}
+.popuProd-carousel {.item{ img{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: -5%
+}
+}
+}
+.popuProd-carousel {.item{ img:hover {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: -5%
+}
+}
+}
+    .ourTeamSec {
+        background: #80c041;
+        padding:0px 20px 20px 30px
+    }
+    .ourTeamSec{ .ourTeam {
+        display: none
+    }
+}
+.ourTeamSec {.zInd {
+    width: 70px;
+    margin-top: 20px
+}
+}
+.bnrHmSec {
+    background: #7ac142;
+    padding: 0px 0px 80px 0px
+}
+.bnrHmSec{ .spellCol {
+    padding-left: 40px;
+    padding-bottom: 30px
+}
+}
+.bnrHmSec{ p {
+    margin-top: 10px
+}
+}
+.bnrHmSec{ h2 {
+    font-size: 22px;
+    margin-top: 20px
+}
+}
+    .bgGreen {
+        padding: 0px 0px 0 0
+    }
+    .teamMemSec {.ourTeam {
+        width: 30%;
+        margin-left: 0;
+        border: 1px solid #d3dcca45;
+        margin-top: 30px
+    }
+}
+    .contactSec{ .fa-map-marker {
+        margin-left: 0
+    }
+}
+.contactSec{ h1 {
+    font-size: 25px
+}
+}
+.contactSec{ textarea {
+    height: 120px !important
+}
+}
+.contactSec {
+    img{
+    width: 50%;
+    margin-left: 15%
+}
+}
+header {
+    border-radius: 10px 10px 0 0
+}
+    .contactSec {
+        padding: 20px 20px
+    }
+    #scTop {
+        top: 96%;
+        left: 91%;
+        font-size: 1rem
+    }
+    body{ .container {
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+}
+    .hdngGatih {
+        font-size: 30px
+    }
+    .btnGatih,
+    .btnGatih:hover {
+        padding: 10px 30px
+    }
+    .dateCol8 {
+        padding: 10px 20px 0 20px
+    }
+    .footer-top {
+        padding: 20px 20px 10px 20px;
+        text-align: center
+    }
+    .footer-top {.gathiLogoCircle {
+        width: 100px;
+        margin: 20px
+    }
+}
+.footer-bottom {h6 {
+    font-size: 10px
+}
+}
+footer{ h3 {
+    font-size: 30px;
+}
+}
+.footer-top{ .menuCol{ ul {li {a {
+    font-size: 20px;
+    line-height: 38px
+}
+}
+}
+}
+}
+.test-carousel{ img {
+    margin-top: 30px;
+    margin-left: -20px
+}
+}
+.homechefSec {
+    padding: 0 30px 30px 30px
+}
+.navbar-brand{
+    img{
+        width:130px
+    }
+}
+header {nav {li {
+    margin: 2px 10px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%
+}
+}
+}
+.datesHmSec {.dates{
+    display:none
+}
+}
+.bnrHmSec{
+    ul{
+        display: none
+    }
+}
+.gTaste-carousel {img {
+    margin-left: 35%;
+    width: 25% !important
+}}
+.bnrHmSec {h1 {
+    font-size: 35px
+}
+}
+@keyframes animateProd {
+    from {
+    }
+    to {
+        margin-top: 0%
+    }
+}
+.bgMap{ img {
+    display:none
+}}
+.termsSec,
+.privacySec {
+    padding: 20px 20px 20px 20px
+}
+.searchSec{h1 {
+    font-size: 25px;
+    margin-top: 30px
+}
+}
+.searchSec {
+    padding: 20px 20px
+}
+.searchSec {
+    .ruhtabProduct{
+    width: 50%;
+    margin-top: 5%
+}
+}
+.weStartSec h1 {
+    font-size: 30px
+}
+
+.weStartSec {
+    padding: 20px 20px 0 20px
+}
+.weStartSec{ .biryani {
+    width: 50%;
+    margin-left: 25%
+}
+}
+.teamMemSec {
+    padding: 0px 20px 20px 20px;
+    text-align: center
+}
+.awardSec {
+    padding: 20px 20px
+}
+.awardSec{
+    .star{
+    width:30%
+}
+}
+.visionSec {
+    padding: 20px
+}
+.quamaStart {
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 5%
+}
+.quamaEnd {
+    width: 5%;
+    margin-top: 0px;
+    margin-left: 61%
+}
+}
+@media (max-width: 575px){
+    .ourTeamSec {
+        padding:0px 20px 20px 20px
+
+    }
+    .mapConSec{ iframe {
+        height: 250px
+    }
+}
+    .contactSec {i {
+        margin-left: 0
+    }
+}
+    .recipe-carousel{ .card {
+        height: auto
+    }
+}
+header{ nav {
+    height: auto;
+}
+}
+.gTaste{
+    color:white !important;
+    font-size: 28px !important
+}
+.gTaste-carousel {
+    margin-top: 0
+}
+.ruhtabDat {
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px
+}
+}
+@media (min-width: 576px){
+footer{
+    form{
+        input{
+            width:50% !important
+        }
+    }
+}
+}
+@media (min-width: 576px) and (max-width:767px) {
+    .launNewSec {
+        padding: 0px 0 20px 0
+    }
+    .searchSec {.ruhtabProduct {
+        width: 50%;
+        margin-left: 0;
+        margin-top:10px
+    }
+}
+.bnrHmSec ul{
+display: none
+}
+
+.popularSec{ h6 {
+    font-size: 20px
+}
+}
+.seller-carousel{ .item{ h4{
+    font-size: 17px
+}
+}
+}
+.popuProd-carousel{ h4{
+    font-size: 17px
+}
+}
+
+.bestSellSec {
+    padding: 30px
+}
+.prodChildSec {
+    padding: 30px
+}
+.contactSec{
+img
+ {
+    width: 50%;
+    margin-left: 10%
+}
+}
+    .bgMap {
+        img {
+            margin-top: -300px;
+            height: 340px
+        }
+    }
+
+    .gTaste-carousel {
+        img {
+            width: 60px !important
+        }
+    }
+
+    .datesHmSec {
+        .dates {
+            margin-top: 120px
+        }
+    }
+
+    .popularSec {
+        .item {
+            height: 200px;
+            margin-top: 10px
+        }
+    }
+
+    .launchBg {
+        .newLnch {
+            h2 {
+                font-size: 21px;
+                line-height: 25px
+            }
+        }
+    }
+
+    .launchBg {
+        margin-top: 20px;
+        padding: 20px 10px 0 10px
+    }
+
+    .launchBg {
+        .orangeGirl {
+            margin-top: -25px
+        }
+    }
+
+    .launchBg {
+        p {
+            font-size: 10px
+        }
+    }
+
+    .test-carousel {
+        img {
+            margin-top: -10px;
+            margin-left: -20px
+        }
+    }
+
+    .test-carousel {
+        .shadow {
+            margin-left: 0;
+            height: 130px
+        }
+    }
+
+    .test-carousel {
+        .owl-next {
+            right: 48%;
+        }
+    }
+
+    .footer-top {
+        padding: 30px 30px 10px 30px
+    }
+
+    .footer-top .menuCol ul li a {
+        font-size: 20px;
+        line-height: 35px
+    }
+
+    .footer-top {
+        .gathiLogoCircle {
+            width: 120px
+        }
+    }
+
+    .bgConnect {
+        padding: 30px 70px
+    }
+
+    .hdngGatih {
+        font-size: 30px
+    }
+
+    .dateCol8 {
+        padding: 0px 30px 0 0px
+    }
+
+    .popularSec {
+        padding: 0px 20px 30px 20px
+    }
+
+    .privacySec, .termsSec {
+        padding: 30px 30px 20px 30px
+    }
+
+    .navbar-brand {
+        img {
+            width: 50%
+        }
+    }
+
+    header {
+        nav {
+            li {
+                text-align: center;
+                width: 50%;
+                margin: 2px auto
+            }
+        }
+    }
+
+    .contactSec {
+        padding: 20px 40px
+    }
+
+    .contactSec {
+        h1 {
+            font-size: 30px
+        }
+    }
+
+    .contactSec {
+        .fa-map-marker {
+            margin-left: 0
+        }
+    }
+
+    .searchSec {
+        h1 {
+            font-size: 30px;
+            margin-top:30px
+        }
+    }
+
+    .searchSec {
+        padding: 30px 0
+    }
+
+    .weStartSec {
+        h1 {
+            font-size: 30px
+        }
+    }
+
+    .weStartSec {
+        padding: 0 0 0 40px
+    }
+
+    .weStartSec {
+        .biryani {
+            margin-left: 0;
+            margin-top: 50%
+        }
+    }
+
+    .teamMemSec {
+        padding: 0px 30px 50px 30px
+    }
+
+    .awardSec {
+        padding: 0px 30px 30px 30px
+    }
+
+    .ourTeamSec {
+        .ourTeam {
+            display: none
+        }
+    }
+
+    .ourTeamSec {
+        p,h5 {
+            color: $blkPrColor
+        }
+    }
+
+    .prodBnrSec {
+        img {
+            margin-top: -80px
+        }
+    }
+
+    .launchSec {
+        padding: 0 30px 30px 30px
+    }
+
+    .launchSec {
+        h4:first-child {
+            margin-top: 0
+        }
+    }
+
+    .bestSellSec {
+        h1 {
+            font-size: 30px;
+            margin-top: 30px
+        }
+    }
+    .prodChildSec {
+        h1 {
+            font-size: 30px;
+            margin-top: 30px
+        }
+    }
+    .launchSec {
+        .dateProduct {
+            width: 30%;
+            margin: 20px 0%
+        }
+    }
+
+    .launchSec {
+        text-align: center
+    }
+
+    .bnrHmSec {
+        h1 {
+            font-size: 30px
+        }
+    }
+
+    .bnrHmSec {
+        h2 {
+            font-size: 23px;
+            margin-top: 0px
+        }
+    }
+
+    .btnGatih, .btnGatih:hover {
+        padding: 10px 30px
+    }
+
+    .test-carousel {
+        .owl-prev {
+            left: 44%
+        }
+    }
+
+
+
+    .homechefSec {
+        padding:0 30px 30px 30px
+    }
+    .recipe-carousel {
+        span {
+            font-size: 40px
+        }
+    }
+    .recipe-carousel {
+        span {
+            font-size: 40px;
+            height: 30px;
+            width: 30px;
+            line-height: 22px
+        }
+    }
+
+    #scTop {
+        top: 95%;
+        left: 92%;
+        font-size: 2rem
+    }
+    .insta-carousel {
+        span {
+            font-size: 40px
+        }
+    }
+    .insta-carousel {
+        span {
+            font-size: 40px;
+            height: 30px;
+            width: 30px;
+            line-height: 22px
+        }
+    }
+    .footer-top {
+        h3 {
+            font-size: 30px
+        }
+    }
+
+    .popuProd-carousel {
+        .item {
+            img {
+                width: 40%;
+                margin-left: 30%;
+                margin-bottom: 10px;
+                margin-top: 5%
+            }
+        }
+    }
+
+    .popuProd-carousel {
+        .item {
+            img:hover {
+                width: 50%;
+                margin-left: 25%;
+                margin-bottom: 0px;
+                margin-top: -5%
+            }
+        }
+    }
+
+    .bestSellSec {
+        .ruhtabProduct {
+            width: 50%
+        }
+    }
+    .prodChildSec {
+        .ruhtabProduct {
+            width: 50%
+        }
+    }
+    .seller-carousel {
+        .item {
+            img {
+                width: 40%;
+                margin-left: 30%;
+                margin-bottom: 10px;
+                margin-top: 5%
+            }
+        }
+    }
+
+    .seller-carousel {
+        .item {
+            img:hover {
+                width: 50%;
+                margin-left: 25%;
+                margin-bottom: 0px;
+                margin-top: -5%
+            }
+        }
+    }
+
+    .seller-carousel {
+        .item {
+            height: 200px;
+            margin-top: 10px
+        }
+    }
+
+    .quamaEnd {
+        margin-top: 0px;
+        margin-left: 47%
+    }
+
+    .quamaStart {
+        margin-left: 13%
+    }
+
+    .bgGreen {
+        padding: 0px 0px 0 0
+    }
+
+    .ourTeamSec {
+        background: #80c041;
+        padding: 30px 0px 10px 0
+    }
+
+    .ourTeamSec {
+        .zInd {
+            width: 70px
+        }
+    }
+
+    .ourTeamSec {
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+            margin-left: 20px
+        }
+    }
+
+    .teamMemSec {
+        .ourTeam {
+            width: 25%;
+            margin-left: 0;
+            border: 2px solid #d3dcca45;
+            margin-top: 30px
+        }
+    }
+
+    .visionSec {
+        padding: 30px 0 30px 0
+    }
+
+    .awardSec {
+        .star {
+            width: 30%
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .launNewSec {
+        padding: 10px 0 30px 0
+    }
+    .test-carousel {
+        .owl-next {
+            right: 49%
+        }
+    }
+
+    .recipe-carousel {
+        span {
+            height: 30px;
+            width: 30px;
+            line-height: 20px
+        }
+    }
+
+    .navbar-brand {
+        img {
+            width: 200px
+        }
+    }
+    .insta-carousel {
+        span {
+            height: 30px;
+            width: 30px;
+            line-height: 20px
+        }
+    }
+    header {
+        nav {
+            li {
+                padding: 0 25px;
+                margin: 3px 10px;
+                width: 20%;
+                text-align: center;
+                margin-left: 40%
+            }
+        }
+    }
+
+    .bnrHmSec {
+        h1 {
+            font-size: 40px
+        }
+    }
+
+    .hdngGatih {
+        font-size: 33px
+    }
+
+    .btnGatih, .btnGatih:hover {
+        padding: 10px 20px
+    }
+
+    .dateCol8 {
+        padding: 0px 30px 0 0px
+    }
+
+    .footer-top {
+        padding: 30px 30px 10px 30px
+    }
+
+    .ourBrandSec .brndLog {
+        width: 50%
+    }
+
+    .popuProd-carousel {
+        .item {
+            img {
+                width: 40%;
+                margin-left: 30%;
+                margin-bottom: 0;
+                margin-top: -25%
+            }
+        }
+    }
+
+    .popularSec {
+        .item {
+            height: 170px
+        }
+    }
+
+    .gTaste-carousel {
+        img {
+            width: 130px !important
+        }
+    }
+
+    .bgMap {
+        img {
+            margin-top: -360px;
+            height: 400px
+        }
+    }
+
+    .popularSec {
+        h6 {
+            font-size: 20px
+        }
+    }
+
+    .popuProd-carousel {
+        .item {
+            img:hover {
+                width:50%;
+                margin-left: 25%;
+                margin-top: -40%;
+                margin-bottom: 0px
+            }
+        }
+    }
+
+    .datesHmSec {
+        padding: 50px 0 20px 0
+    }
+
+    .launchBg {
+        .newLnch {
+            h2 {
+                font-size: 25px;
+                line-height: 30px;
+                margin-top: 20px
+            }
+        }
+    }
+
+    .launchBg {
+        .orangeGirl {
+            margin-top: 0px
+        }
+    }
+
+    .test-carousel {
+        img {
+            width: auto !important
+        }
+    }
+
+    .test-carousel {
+        .shadow {
+            height: 250px;
+            padding: 30px !important
+        }
+    }
+
+    .test-carousel {
+        img {
+            margin-top: -60px;
+            margin-left: 23%
+        }
+    }
+
+    .homechefSec {
+        padding: 0 30px 30px 30px
+    }
+
+    .popularSec {
+        padding: 0px 30px 30px 30px
+    }
+
+    .bgConnect {
+        padding: 30px 70px
+    }
+
+    body {
+        .container {
+            margin-top: 30px;
+            margin-bottom: 30px
+        }
+    }
+
+    .bnrHmSec {
+        h2 {
+            font-size: 28px
+        }
+    }
+
+    #scTop {
+        top: 94%;
+        left: 94%;
+        font-size: 2rem
+    }
+
+    .launchBg {
+        margin-top: 40px
+    }
+
+    .testimonialSec {
+        padding: 0 0 30px 0
+    }
+
+    .launchSec {
+        h4:first-child {
+            margin-top: 0
+        }
+    }
+
+    .prodBnrSec {
+        img {
+            margin-top: -105px
+        }
+    }
+
+    .launchSec {
+        padding: 0 30px 30px 30px
+    }
+
+    .launchSec {
+        .dateProduct {
+            margin-top: 40%
+        }
+    }
+
+    .seller-carousel {
+        .item {
+            height: 170px
+        }
+    }
+
+    .seller-carousel {
+        .item {
+            img {
+                width: 40%;
+                margin-left: 30%;
+                margin-bottom: 0;
+                margin-top: -25%
+            }
+        }
+    }
+
+    .seller-carousel {
+        .item {
+            img:hover {
+                width:50%;
+                margin-left: 25%;
+                margin-top: -40%;
+                margin-bottom: 0
+            }
+        }
+    }
+
+    .premiumSec {
+        padding: 40px 0
+    }
+
+    .bestSellSec {
+        padding:30px
+    }
+
+    .bestSellSec {
+        .ruhtabProduct {
+            width: 50%
+        }
+    }
+
+    .bestSellSec {
+        h1 {
+            font-size: 30px
+        }
+    }
+    .prodChildSec {
+        padding:30px
+    }
+
+    .prodChildSec {
+        .ruhtabProduct {
+            width: 50%
+        }
+    }
+
+    .prodChildSec {
+        h1 {
+            font-size: 30px
+        }
+    }
+    .awardSec {
+        padding: 30px 30px
+    }
+
+    .teamMemSec {
+        padding: 30px 30px
+    }
+
+    .weStartSec {
+        h1 {
+            font-size: 35px
+        }
+    }
+
+    .weStartSec {
+        padding: 0px 0 0 50px
+    }
+
+    .weStartSec {
+        .biryani {
+            margin-left: 0;
+            margin-top: 20%
+        }
+    }
+
+    .ourTeamSec {
+        padding: 3px 0px
+    }
+
+    .ourTeamSec {
+        .ourTeam {
+            margin-top: -180px;
+            margin-left: 0
+        }
+    }
+
+    .ourTeamSec {
+        .zInd {
+            display: none
+        }
+    }
+
+    .bgGreen {
+        padding: 0px 0px 0 20px
+    }
+
+    .quamaStart {
+        margin-left: 15%
+    }
+
+    .quamaEnd {
+        margin-left: 49%;
+        margin-top: 0
+    }
+
+    .awardSec {
+        .star {
+            width: 50%
+        }
+    }
+
+    .teamMemSec {
+        .ourTeam {
+            border: 2px solid #d3dcca45
+        }
+    }
+
+    .contactSec {
+        padding: 30px 40px
+    }
+
+    .contactSec {
+        h1 {
+            font-size: 35px;
+        }
+    }
+
+    .searchSec {
+        padding: 30px 0
+    }
+
+    .searchSec {
+        h1 {
+            font-size: 30px
+        }
+    }
+
+    .privacySec, .termsSec {
+        padding: 30px 40px 30px 40px
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .teamMemSec {.ourTeam {
+        width: 30%
+    }}
+    .weStartSec {
+        padding: 50px 0 0 60px
+    }
+    .popularSec{ .item{
+height: 200px
+    }
+}
+.recipe-carousel{ .card {
+    height: 530px
+}
+}
+
+    .bnrHmSec {.spellCol {
+        padding-left: 0
+    }
+}
+.bnrHmSec{ p {
+    margin-top: 30px;
+    width: auto
+}
+}
+    header {nav {
+        height: 70px
+    }
+}
+
+    .launchBg {
+        margin-top: 60px
+    }
+    .hdngGatih {
+        font-size: 35px
+    }
+
+    .btnGatih, .btnGatih:hover {
+        padding: 10px 30px
+    }
+
+    .bgMap {
+        img {
+            margin-top: -365px;
+            height: 450px
+        }
+    }
+
+    header {
+        img {
+            width: 200px
+        }
+    }
+
+    header {
+        nav {
+            li {
+                padding: 0 20px
+            }
+        }
+    }
+
+    .test-carousel {
+        .shadow {
+            height: 160px
+        }
+    }
+
+    .test-carousel {
+        img {
+            margin-top: -20px;
+            margin-left: -20px
+        }
+    }
+
+    .footer-top {
+        padding: 40px 50px 15px 50px
+    }
+
+    .footer-top{ .menuCol{ ul {li {a {
+        font-size: 17px;
+        line-height: 40px
+    }
+}
+}
+}
+}
+
+    .footer-top {
+        .gathiLogoCircle {
+            width: 140px;
+            margin-top: 20px
+        }
+    }
+
+    #scTop {
+        top: 93%;
+        left: 94%;
+        font-size: 2rem
+    }
+
+    .bnrHmSec {
+        h1 {
+            font-size: 45px
+        }
+    }
+
+    .dateCol8 {
+        padding: 30px 70px 0 50px
+    }
+
+    .ourBrandSec {
+        .brndLog {
+            width: 60%
+        }
+    }
+
+    .launchBg {
+        .newLnch {
+            h2 {
+                font-size: 35px;
+                line-height: 40px;
+                margin-top: 30px
+            }
+        }
+    }
+
+    .launchBg {
+        .orangeGirl {
+            margin-top: -50px
+        }
+    }
+
+    body {
+        .container {
+            margin-top: 30px;
+            margin-bottom: 30px
+        }
+    }
+
+    .launchSec {
+        padding: 0 50px 50px 50px
+    }
+
+    .launchSec {
+        .dateProduct {
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 50px
+        }
+    }
+
+    .launchSec {
+        h4:first-child {
+            margin-top: 0px
+        }
+    }
+
+    .weStartSec{ h1 {
+        font-size: 40px;
+        margin-top:20px
+    }
+}
+
+    .quamaEnd {
+        margin-left: 38%;
+        margin-top: 0
+    }
+
+    .teamMemSec {
+        padding: 30px 50px 30px 50px
+    }
+
+    .awardSec {
+        padding: 30px 50px
+    }
+
+    .ourTeamSec {
+        .zInd {
+            width: 60px
+        }
+    }
+
+    .ourTeamSec {
+        h5 {
+            font-size: 16px
+        }
+    }
+
+    .contactSec {
+        h1 {
+            font-size: 35px
+        }
+    }
+
+    .termsSec, .privacySec {
+        padding: 30px 50px 30px 50px
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1399px) {
+    .bnrHmSec{ p {
+        width: 400px
+    }
+}
+    .bnrHmSec{ .spellCol {
+        padding-left: 50px
+    }
+}
+    .recipe-carousel
+     {.card {
+        height: 540px
+    }
+}
+    .bestSellSec{
+        h1{
+            font-size:35px
+        }
+    }
+    .prodChildSec{
+        h1{
+            font-size:35px
+        }
+    }
+    header{
+        img{
+                width: 85%;
+                margin-top: 3%
+        }
+    }
+    .mapConSec{
+        iframe{
+            height: 400px
+        }
+    }
+    .launchBg{ .newLnch{ h2 {
+        font-size: 45px;
+        line-height: 50px
+    }}}
+    #scTop {
+        font-size:2rem
+    }
+
+    .bnrHmSec {
+        ul {
+            margin-left: 10px
+        }
+    }
+
+    .test-carousel {
+        .shadow {
+            height: 130px
+        }
+    }
+
+    .launchSec {
+        h4:first-child {
+            margin-top: 30px
+        }
+    }
+
+    .bgGreen {
+        padding: 0px 60px 0 0
+    }
+
+    .bgMap img {
+        margin-top: -425px;
+        height: 470px
+    }
+
+    header {
+        nav {
+            li {
+                padding: 0 20px
+            }
+        }
+    }
+
+    .hdngGatih {
+        font-size: 40px
+    }
+
+    .btnGatih, .btnGatih:hover {
+        padding: 10px 30px
+    }
+
+    .dateCol8 {
+        padding: 80px 100px 0 70px
+    }
+
+    .popularSec {
+        .item {
+            height: 240px;
+            margin-top:40px
+        }
+    }
+
+    .quamaEnd {
+        margin-left: 36%;
+        margin-top: 0px
+    }
+
+    .ourTeamSec {
+        .ourTeam {
+            margin-top: -238px;
+            margin-left: -50px
+        }
+    }
+
+    .teamMemSec {
+        .ourTeam {
+            width: 35%;
+            margin-left: 0%
+        }
+    }
+
+    .teamMemSec {
+        padding:30px 100px 30px 100px
+    }
+
+    .awardSec {
+        padding: 30px 100px
+    }
+
+    .contactSec {
+        h1 {
+            font-size: 40px
+        }
+    }
+
+    .weStartSec {
+        h1 {
+            font-size: 45px;
+            margin-top:30px
+        }
+    }
+
+    .footer-top {
+        padding: 40px 100px 15px 100px
+    }
+
+    .footer-top {
+        .menuCol {
+            ul {
+                li {
+                    a {
+                        line-height: 45px;
+                        font-size: 19px
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) and (max-width:1599px) {
+    .seller-carousel{ .item{
+        height: 270px
+    }
+}
+    .quamaEnd {
+        margin-left: 36%
+    }
+
+    .quamaStart {
+        margin-left: 13%
+    }
+
+    #scTop {
+        top: 95%;
+        left: 97%;
+        font-size: 2rem
+    }
+}
+
+@media (min-width: 1600px) and (max-width:1799px) {
+    .quamaEnd {
+        margin-left: 32%
+    }
+}

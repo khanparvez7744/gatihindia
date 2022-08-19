@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica.TTF");
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Helvetica
+}
+
+nav {
+    font-size: 24px;
+    margin: 0px 30px 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #fff;
+    color: #231f20;
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1
+}
+
+h3 {
+    margin: auto;
+    padding: 10px;
+    max-width: 600px;
+    color: #666
+}
+
+h3 span {
+    float: right
+}
+
+h3 a {
+    font-weight: normal;
+    display: block
+}
+
+#cont {
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    margin: -20px 30px 0px 30px;
+    padding: 20px
+}
+
+a:link, a:visited {
+    color: #0180AF;
+    text-decoration: underline
+}
+
+a:hover {
+    color: #231f20
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none
+}
+
+li {
+    margin: 0px
+}
+
+li ul {
+    margin-left: 20px
+}
+
+.lhead {
+    background: #80bf41;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    color: white
+}
+
+.lcount {
+    padding: 0px 10px;
+}
+
+.lpage {
+    border-bottom: #ddd 1px solid;
+    padding: 5px
+}
+
+.last-page {
+    border: none
+}
